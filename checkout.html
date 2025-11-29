@@ -489,7 +489,7 @@
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                                 <div>
                                     <label class="form-label" for="phone">Teléfono *</label>
-                                    <input type="tel" id="phone" class="form-input" required placeholder="2644803769">
+                                    <input type="tel" id="phone" class="form-input" required placeholder="2645776592">
                                     <div class="error-message" id="phone-error">Por favor ingresa un teléfono válido</div>
                                 </div>
                                 <div>
@@ -667,7 +667,7 @@
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Contacto</h4>
-                    <p class="text-gray-300">📱 Tel: 2644803769</p>
+                    <p class="text-gray-300">📱 Tel: 2645776592</p>
                     <p class="text-gray-300">📧 info@ferreteria.com</p>
                     <p class="text-gray-300">🕒 Lun-Sab: 8:00-18:00</p>
                 </div>
@@ -1030,7 +1030,7 @@
                 const submitBtn = document.getElementById('place-order-btn');
                 submitBtn.disabled = false;
                 submitBtn.textContent = 'Realizar Pedido';
-                showToast('Error al procesar. Contacta al 2644803769', 'error');
+                showToast('Error al procesar. Contacta al 2645776592', 'error');
             }
         }
 
@@ -1142,7 +1142,7 @@
 
         // 🔥 FUNCIÓN PRINCIPAL: ENVÍO POR WHATSAPP
         function sendWhatsAppOrder(orderData) {
-            const phoneNumber = '5492644803769'; // Código país + número
+            const phoneNumber = '5492645776592'; // Código país + número
             const message = formatOrderMessage(orderData);
             const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
             
@@ -1289,3 +1289,4 @@
     </script>
 </body>
 </html>
+
