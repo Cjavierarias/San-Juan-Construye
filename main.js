@@ -554,7 +554,7 @@ class FerreteriaApp {
 
     // WhatsApp integration
     sendWhatsAppOrder(orderData) {
-        const phoneNumber = '2644803769';
+        const phoneNumber = '2645776592';
         const message = this.formatOrderMessage(orderData);
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         
@@ -616,3 +616,4 @@ function refreshProducts() {
         window.ferreteriaApp.refreshProducts();
     }
 }
+
